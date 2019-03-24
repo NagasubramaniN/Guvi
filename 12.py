@@ -1,11 +1,11 @@
-abc=int(input())
-def=abc
-pqr=0
-while(abc>0):
-    xyz=abc%10
-    pqr=pqr*10+xyz
-    abc=abc//10
-if(def==pqr):
+x=int(input())
+y=x
+z=0
+while(x>0):
+    a=x%10
+    z=z*10+a
+    x=x//10
+if(y==z):
     print("yes")
 else:
     print("no")
