@@ -1,7 +1,7 @@
 sap,nap=map(int,input().split())
 pap=list(map(int,input().split()))
 zzp=[]
-for i in range(0,n):
+for i in range(0,nap):
     fp=[]
     fp=list(map(int,input().split()))
     mp=fp[0]
