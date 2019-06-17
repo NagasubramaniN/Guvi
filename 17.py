@@ -1,0 +1,12 @@
+num=int(input())
+x=num
+y=0
+while(num>0):
+ p=num%10
+ num=num//10
+ q=p**3
+ y=y+q
+if(x==y):
+ print('yes')
+else:
+ print('no')
