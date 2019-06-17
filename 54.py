@@ -1,6 +1,6 @@
 nump=int(input())
 vp=[]
-kp=bin(2**num-1)[2::]
+kp=bin(2**nump-1)[2::]
 lp=len(kp)
 for i in range(0,2**nump):
 	sp=bin(i)[2::]
