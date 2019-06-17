@@ -6,5 +6,5 @@ for c in range(0,len(q)):
   for d in range(c+1,len(q)):
     if abs(q[c]+q[d])<r:
       a,b=q[c],q[d]
-      r=abs(e+f)
+      r=abs(a+b)
 print(a,b)
