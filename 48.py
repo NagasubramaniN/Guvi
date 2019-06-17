@@ -2,7 +2,7 @@ n1p,m1p=map(int,input().split())
 lp=[]
 uip=0
 for i in range(n1p):
-    l.append(list(map(int,input().split())))   
+    lp.append(list(map(int,input().split())))   
 for i in range(n1p):
     for j in range(m1p-1):
         for k in range(j+1,m1p+1):
